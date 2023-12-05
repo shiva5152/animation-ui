@@ -13,7 +13,7 @@ export default function Home() {
     <main className="_hero relative min-h-screen p-[20px] md:py-12  md:px-24">
       <Hero />
       <Logo />
-      <Intro />
+      {/* <Intro /> */}
       <Advantages />
       <Testimonial />
       <Pricing />

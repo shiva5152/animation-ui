@@ -92,24 +92,25 @@ const Footer = () => {
   return (
     <div className="mt-24 flex footer  p-12 justify-between">
       <div>
-        <h1 className=" text-[2.5rem] font-semibold">NextAI</h1>
+        <h1 className=" text-[2.5rem] font-semibold">Flexbot</h1>
         <p className="text-[0.8rem] text-[#c9c9c9] ">
-          © 2023 All right are reserved
+          © 2024 All right are reserved
         </p>
       </div>
       <div>
-        <h2 className="text-[1.4rem] font-semibold">About</h2>
+        <h2 className="text-[1.4rem] font-semibold">Documentations</h2>
         <p className="text-[0.95rem]  flex flex-col text-[#c9c9c9] ">
-          <span>The ultimate Framer template to bring.</span>
-          <span>Get it for free and use it right away!</span>
+          <span>Whitepape</span>
+          <span>PitchDeck</span>
         </p>
       </div>
       <div>
-        <h2 className="text-[1.4rem] font-semibold">Other Templates</h2>
+        <h2 className="text-[1.4rem] font-semibold">Information</h2>
         <ul className=" font-normal">
-          <li>BJ Group</li>
-          <li>Marko Blinker</li>
-          <li>See more</li>
+          <li>About US</li>
+          <li> FAQ’s</li>
+          <li> Stake $FLEXBOT</li>
+          <li>Buy $FLEXBOT</li>
         </ul>
       </div>
       <div className=" grid grid-cols-2 gap-2">

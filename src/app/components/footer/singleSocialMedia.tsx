@@ -8,10 +8,8 @@ const SingleSocialMedia = ({
   logo: React.JSX.Element;
 }) => {
   return (
-    <div>
-      <button className=" rounded-md bg-white" key={id}>
-        {logo}
-      </button>
+    <div key={id}>
+      <button className=" rounded-md bg-white">{logo}</button>
     </div>
   );
 };

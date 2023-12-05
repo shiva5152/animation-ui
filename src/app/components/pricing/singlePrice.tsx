@@ -16,7 +16,7 @@ const SinglePrice = () => {
       </div>
       <div>
         {reviewArray.map((item) => (
-          <p className="flex gap-2 mb-2">
+          <p key={item} className="flex gap-2 mb-2">
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

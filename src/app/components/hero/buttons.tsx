@@ -5,26 +5,47 @@ const Buttons = () => {
     <div className="relative">
       <div className="flex  z-10 justify-between mt-10 flex-col md:flex-row relative  ">
         <div className="flex justify-between  gap-6">
-          <div className="flex flex-col mb-5 justify-between">
-            <button className="button-glow bg-[#8d2fe6] font-medium rounded-[50px] items-center  flex p-2">
-              <span className=" bg-white rounded-full p-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="#b782fc"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                  />
-                </svg>
-              </span>{" "}
-              <span className="px-4">Get started</span>
-            </button>
+          <div className="flex gap-24 flex-col mb-5 justify-between">
+            <div className=" flex  gap-3">
+              <button className="button-glow bg-[#8d2fe6] font-medium rounded-[50px] items-center  flex p-2">
+                <span className="hover:-rotate-45 transform transition-transform duration-300 bg-white rounded-full p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="#b782fc"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </span>{" "}
+                <span className="px-4">White paper</span>
+              </button>
+              <button className="button-glow bg-[#8d2fe6] font-medium rounded-[50px] items-center  flex p-2">
+                <span className="hover:-rotate-45 transform transition-transform duration-300 bg-white rounded-full p-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="#b782fc"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </span>{" "}
+                <span className="px-4">White list</span>
+              </button>
+            </div>
             <button className="bg-white hidden md:block w-fit rounded-full p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,14 +66,14 @@ const Buttons = () => {
         </div>
         <div className="flex flex-row md:flex-col justify-items-end gap-3">
           <button className="border-2  border-white rounded-[50px] text-[10px] md:text-[16px] py-[8px] px-[16px] h-fit md:py-[12px] md:px-[24px]">
-            Template
+            Trade Now
           </button>
-          <button className="border-2  border-white rounded-[50px] text-[10px] md:text-[16px] py-[8px] px-[16px] h-fit md:py-[12px] md:px-[24px]">
+          {/* <button className="border-2  border-white rounded-[50px] text-[10px] md:text-[16px] py-[8px] px-[16px] h-fit md:py-[12px] md:px-[24px]">
             UI/UX Design
           </button>
           <button className="border-2  border-white rounded-[50px] text-[10px] md:text-[16px] py-[8px] px-[16px] h-fit md:py-[12px] md:px-[24px]">
             Website
-          </button>
+          </button> */}
         </div>
         {/* <div className=" absolute blue-gradient -z-10 w-[100px] h-[100px]"></div> */}
       </div>

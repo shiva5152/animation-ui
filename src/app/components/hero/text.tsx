@@ -32,9 +32,11 @@ const Text = () => {
   return (
     <section className="flex relative z-40 justify-between " ref={textRef}>
       <div>
-        <p className="text-[#c9c9c9] mb-[1rem]">All-in-one solution</p>
-        <div className="text-[28px] md:text-[64px] leading-snug font-bold font-Orbitron">
-          <h1 id="title-1">
+        <p className="text-[#c9c9c9] mb-[1rem]">
+          Paving The Way To Intelligent Crypto Trading!
+        </p>
+        <div className="text-[28px] max-w-[80%]  leading-snug font-bold font-Orbitron">
+          {/* <h1 id="title-1">
             Innovate<span className="text-[#8d2fe6]">.</span>
           </h1>
           <h1 id="title-2 ">
@@ -42,7 +44,14 @@ const Text = () => {
           </h1>
           <h1 id="title-3">
             Innovate some more<span className="text-[#8d2fe6]">.</span>
-          </h1>
+          </h1> */}
+          {/* <h1 className="md:text-[3rem]">
+            Paving The Way To Intelligent Crypto Trading!
+          </h1> */}
+          <h2 className="md:text-[3rem] mt-7">
+            Ace perpetual trading and stay ahead in the dynamic world of
+            cryptocurrencies with FLEXBOT.
+          </h2>
         </div>
       </div>
       <div className=" hidden md:block">

@@ -6,7 +6,7 @@ const Heading = () => {
       <p className="text-[#c9c9c9] mb-[1.5rem]">Is it really good?</p>
       <div className="flex justify-between items-end">
         <h1 className="text-[42px] font-bold font-Orbitron mb-[1.3rem]">
-          Our Advantages
+          Why Flexbot Stands Out?
         </h1>
         <button className="button-glow bg-[#8d2fe6] font-medium rounded-[50px] items-center  flex p-2">
           <span className=" bg-white rounded-full p-2">
@@ -25,7 +25,7 @@ const Heading = () => {
               />
             </svg>
           </span>{" "}
-          <span className="px-4">Get started</span>
+          <span className="px-4">White paper</span>
         </button>
       </div>
     </div>

@@ -1,11 +1,9 @@
 import React from "react";
 
-const SingleFaq = () => {
+const SingleFaq = ({ text }: { text: string }) => {
   return (
     <div className="review-border single-faq justify-between cursor-pointer flex p-5">
-      <p className="">
-        1. Can I use it for other types of projects, besides just AI products?
-      </p>
+      <p className="">{text}</p>
       <span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

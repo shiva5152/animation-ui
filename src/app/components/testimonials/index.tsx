@@ -16,7 +16,7 @@ const Testimonial = () => {
         <div className="flex gap-4 element  mt-10">
           {reviewArray.map((_, index) => {
             return (
-              <div className="flex gap-4  flex-col">
+              <div key={index} className="flex gap-4  flex-col">
                 <SingleReview />
                 <SingleReview />
                 <SingleReview />
