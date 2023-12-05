@@ -7,6 +7,7 @@ import Testimonial from "./components/testimonials";
 import Pricing from "./components/pricing";
 import Faq from "./components/fag";
 import Footer from "./components/footer";
+import Features from "./components/features";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Logo />
       {/* <Intro /> */}
+      <Features />
       <Advantages />
       <Testimonial />
       <Pricing />

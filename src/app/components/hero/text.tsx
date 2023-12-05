@@ -18,7 +18,7 @@ const Text = () => {
       t1.from(
         "#box",
         {
-          xPercent: "100",
+          yPercent: "-100",
           duration: 1,
           ease: "power4.out",
         },
@@ -32,9 +32,9 @@ const Text = () => {
   return (
     <section className="flex relative z-40 justify-between " ref={textRef}>
       <div>
-        <p className="text-[#c9c9c9] mb-[1rem]">
+        {/* <p className="text-[#c9c9c9] mb-[1rem]">
           Paving The Way To Intelligent Crypto Trading!
-        </p>
+        </p> */}
         <div className="text-[28px] max-w-[80%]  leading-snug font-bold font-Orbitron">
           {/* <h1 id="title-1">
             Innovate<span className="text-[#8d2fe6]">.</span>
@@ -45,22 +45,19 @@ const Text = () => {
           <h1 id="title-3">
             Innovate some more<span className="text-[#8d2fe6]">.</span>
           </h1> */}
-          {/* <h1 className="md:text-[3rem]">
+          <h1 className="text-[3rem]">
             Paving The Way To Intelligent Crypto Trading!
-          </h1> */}
-          <h2 className="md:text-[3rem] mt-7">
+          </h1>
+          <h2 className="text-[2rem] mt-7">
             Ace perpetual trading and stay ahead in the dynamic world of
             cryptocurrencies with FLEXBOT.
           </h2>
         </div>
       </div>
       <div className=" hidden md:block">
-        <div
-          id="box"
-          className="w-[300px] h-[300px] transform rotate-12 relative mt-[-50px]"
-        >
-          <Image src={"/image/box.webp"} fill={true} alt="box" />
-          <div className="gradient-circle absolute left-[50%] bottom-[50%]  -z-30"></div>
+        <div className="w-[300px] h-[50vh] relative ">
+          <Image id="box" src={"/image/robo-1.png"} fill={true} alt="box" />
+          <div className="gradient-circle absolute left-[50%] bottom-[20%]  -z-30"></div>
         </div>
       </div>
     </section>

@@ -162,3 +162,27 @@ body {
   -moz-box-shadow: 0px 0px 300px 200px rgba(133, 137, 255, 0.5);
   box-shadow: 0px 0px 300px 120px rgba(133, 137, 255, 0.8);
 }
+
+.feature-glow {
+  -webkit-box-shadow: 0px 0px 200px 75px rgba(142, 47, 230, 0.7);
+  -moz-box-shadow: 0px 0px 200px 75px rgba(142, 47, 230, 0.7);
+  box-shadow: 0px 0px 200px 120px rgba(142, 47, 230, 0.7);
+  transition: box-shadow 0.5s ease;
+}
+
+.float-animation:hover {
+  animation: float 2s ease-in-out infinite;
+}
+
+/* Define the float animation */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -15px
+    ); /* Adjust the value to control the floating height */
+  }
+}

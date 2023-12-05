@@ -3,9 +3,9 @@ import React from "react";
 const Buttons = () => {
   return (
     <div className="relative">
-      <div className="flex  z-10 justify-between mt-10 flex-col md:flex-row relative  ">
+      <div className="flex  z-10 justify-between mt-0 flex-col md:flex-row relative  ">
         <div className="flex justify-between  gap-6">
-          <div className="flex gap-24 flex-col mb-5 justify-between">
+          <div className="flex gap-12 flex-col mb-5 justify-between">
             <div className=" flex  gap-3">
               <button className="button-glow bg-[#8d2fe6] font-medium rounded-[50px] items-center  flex p-2">
                 <span className="hover:-rotate-45 transform transition-transform duration-300 bg-white rounded-full p-2">
@@ -65,9 +65,9 @@ const Buttons = () => {
           </div>
         </div>
         <div className="flex flex-row md:flex-col justify-items-end gap-3">
-          <button className="border-2  border-white rounded-[50px] text-[10px] md:text-[16px] py-[8px] px-[16px] h-fit md:py-[12px] md:px-[24px]">
+          {/* <button className="border-2  border-white rounded-[50px] text-[10px] md:text-[16px] py-[8px] px-[16px] h-fit md:py-[12px] md:px-[24px]">
             Trade Now
-          </button>
+          </button> */}
           {/* <button className="border-2  border-white rounded-[50px] text-[10px] md:text-[16px] py-[8px] px-[16px] h-fit md:py-[12px] md:px-[24px]">
             UI/UX Design
           </button>

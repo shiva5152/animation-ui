@@ -115,7 +115,7 @@ const Footer = () => {
       </div>
       <div className=" grid grid-cols-2 gap-2">
         {social.map((item) => (
-          <SingleSocialMedia id={item.id} logo={item.logo} />
+          <SingleSocialMedia key={item.id} id={item.id} logo={item.logo} />
         ))}
       </div>
     </div>
