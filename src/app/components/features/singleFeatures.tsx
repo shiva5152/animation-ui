@@ -17,7 +17,7 @@ const SingleFeature = ({ id, title, icon, description }: Props) => {
       </div>
       <div className="relative z-10">
         <h3 className="mt-8 font-Orbitron font-semibold">{title}</h3>
-        <p className="mt-3 text-start font-light">{description}</p>
+        <p className="mt-3 font-light">{description}</p>
       </div>
     </div>
   );

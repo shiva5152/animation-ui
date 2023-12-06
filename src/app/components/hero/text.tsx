@@ -2,6 +2,7 @@
 import React, { useLayoutEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
+import Buttons from "./buttons";
 
 const Text = () => {
   const textRef = useRef(null);
@@ -30,12 +31,12 @@ const Text = () => {
   }, []);
 
   return (
-    <section className="flex relative z-40 justify-between " ref={textRef}>
-      <div>
-        {/* <p className="text-[#c9c9c9] mb-[1rem]">
-          Paving The Way To Intelligent Crypto Trading!
-        </p> */}
-        <div className="text-[28px] max-w-[80%]  leading-snug font-bold font-Orbitron">
+    <div
+      className="flex relative z-40 flex-col justify-between gap-[5rem] "
+      ref={textRef}
+    >
+      <div className=" relative z-10 flex flex-col justify-center">
+        <div className="text-[28px] max-w-[60%]  leading-snug font-bold font-Orbitron">
           {/* <h1 id="title-1">
             Innovate<span className="text-[#8d2fe6]">.</span>
           </h1>
@@ -48,19 +49,14 @@ const Text = () => {
           <h1 className="text-[3rem]">
             Paving The Way To Intelligent Crypto Trading!
           </h1>
-          <h2 className="text-[2rem] mt-7">
+          <h2 className="text-[1.5rem] font-ubuntu font-normal mt-7">
             Ace perpetual trading and stay ahead in the dynamic world of
             cryptocurrencies with FLEXBOT.
           </h2>
         </div>
       </div>
-      <div className=" hidden md:block">
-        <div className="w-[300px] h-[50vh] relative ">
-          <Image id="box" src={"/image/robo-1.png"} fill={true} alt="box" />
-          <div className="gradient-circle absolute left-[50%] bottom-[20%]  -z-30"></div>
-        </div>
-      </div>
-    </section>
+      <Buttons />
+    </div>
   );
 };
 

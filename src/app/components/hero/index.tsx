@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "./nav";
 import Text from "./text";
 import Buttons from "./buttons";
+import Image from "./img";
 
 const Hero = () => {
   return (
-    <div>
-      <Navbar />
+    <section className="hero flex">
       <Text />
-      <Buttons />
-    </div>
+      <Image />
+    </section>
   );
 };
 

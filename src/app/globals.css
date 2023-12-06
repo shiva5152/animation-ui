@@ -1,26 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Orbitron:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Orbitron:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #111927;
-  background-image: radial-gradient(
-      at 47% 33%,
-      hsl(162, 77%, 40%) 0,
-      transparent 59%
-    ),
-    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
-}
 ._hero {
   background-color: #19131e;
   color: white !important;
 }
 .gradient-circle {
-  -webkit-box-shadow: 0px 0px 300px 197px rgba(109, 78, 212, 0.84);
+  /* -webkit-box-shadow: 0px 0px 300px 197px rgba(109, 78, 212, 0.84);
   -moz-box-shadow: 0px 0px 300px 197px rgba(109, 78, 212, 0.84);
-  box-shadow: 0px 0px 300px 197px rgba(109, 78, 212, 0.84);
+  box-shadow: 0px 0px 300px 197px rgba(109, 78, 212, 0.84); */
+  -webkit-box-shadow: 0px 0px 300px 150px rgba(214, 19, 162, 0.9);
+  -moz-box-shadow: 0px 0px 300px 150px rgba(214, 19, 162, 0.9);
+  box-shadow: 0px 0px 300px 150px rgba(214, 19, 162, 0.9);
+}
+.white-circle {
+  -webkit-box-shadow: 0px 0px 284px 151px rgba(255, 255, 255, 0.43);
+  -moz-box-shadow: 0px 0px 284px 151px rgba(255, 255, 255, 0.43);
+  box-shadow: 0px 0px 284px 151px rgba(255, 255, 255, 0.43);
 }
 .blue-gradient {
   /* -webkit-box-shadow: 0px 0px 300px 200px rgba(3, 48, 76, 1);
@@ -166,7 +165,7 @@ body {
 .feature-glow {
   -webkit-box-shadow: 0px 0px 200px 75px rgba(142, 47, 230, 0.7);
   -moz-box-shadow: 0px 0px 200px 75px rgba(142, 47, 230, 0.7);
-  box-shadow: 0px 0px 200px 120px rgba(142, 47, 230, 0.7);
+  box-shadow: 0px 0px 200px 75px rgba(142, 47, 230, 0.7);
   transition: box-shadow 0.5s ease;
 }
 

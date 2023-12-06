@@ -71,7 +71,7 @@ const Features = () => {
           and comprehensive solution designed for the modern crypto trader
         </p>
       </div>
-      <div className="mt-12 grid grid-cols-3 gap-6">
+      <div className="mt-12 grid grid-cols-3 gap-[6rem]">
         {featuresArr.map((item) => (
           <SingleFeature {...item} />
         ))}

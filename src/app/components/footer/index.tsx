@@ -90,7 +90,7 @@ const social = [
 
 const Footer = () => {
   return (
-    <div className="mt-24 flex footer  p-12 justify-between">
+    <footer className="mt-24 flex footer  p-12 justify-between">
       <div>
         <h1 className=" text-[2.5rem] font-semibold">Flexbot</h1>
         <p className="text-[0.8rem] text-[#c9c9c9] ">
@@ -118,7 +118,7 @@ const Footer = () => {
           <SingleSocialMedia key={item.id} id={item.id} logo={item.logo} />
         ))}
       </div>
-    </div>
+    </footer>
   );
 };
 

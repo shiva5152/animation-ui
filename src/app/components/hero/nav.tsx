@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="py-12 pt-0 relative md:w-[100%]  z-50 flex justify-between">
+    <nav className="py-12 pt-0 relative md:w-[100%]  z-50 flex justify-between">
       <p className=" text-[1.2rem] font-semibold">Flexbot</p>
       <div className=" flex gap-48 ">
         <p className="flex gap-4 font-semibold">
@@ -59,7 +59,7 @@ const Navbar = () => {
           </span>
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 
