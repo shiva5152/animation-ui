@@ -4,17 +4,17 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="relative">
-      <div className=" relative z-10">
-        <h1 className="text-[42px] mb-16 text-center font-bold font-Orbitron">
+    <section className="relative mt-24">
+      <div className=" relative z-50">
+        <h1 className="sm:text-[42px] text-[2rem] sm:mb-16 mb-8 text-center font-bold font-Orbitron">
           About Us
         </h1>
-        <div className="sec-1 flex justify-between items-center mb-20">
-          <div className="flex flex-col gap-6 w-[50%]">
-            <h2 className="text-[2.5rem] text-center font-bold font-Orbitron">
+        <div className="sec-1 flex flex-col sm:flex-row justify-between items-center sm:mb-20 mb-4 ">
+          <div className="flex flex-col sm:gap-6 gap-3 sm:w-[50%] w-full ">
+            <h2 className="text-[1.5rem] sm:text-[2.5rem] text-center font-bold font-Orbitron">
               All-in-One Comprehensive trading bot
             </h2>
-            <p className="text-[1.5rem] font-ubuntu text-center ">
+            <p className="sm:text-[1.5rem] text-[1rem] font-ubuntu text-center ">
               Flexbot is your multichain perpetual trading bot powered by
               Synthetix, dydx and GMX utilizing AI gem scanning for optimal
               trading outcomes. With an All-in-One comprehensive solution that
@@ -31,7 +31,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="sec-2 flex  justify-between items-center">
+        <div className="sec-2 flex flex-col-reverse sm:flex-row  justify-between items-center">
           <div className="flex justify-center">
             <Image
               id="box"
@@ -41,11 +41,11 @@ const About = () => {
               alt="robo"
             />
           </div>
-          <div className="flex flex-col gap-6 w-[50%]">
-            <h2 className="text-[2.5rem] text-center font-bold font-Orbitron">
+          <div className="flex flex-col gap-3 sm:gap-6 sm:w-[50%] w-full">
+            <h2 className="text-[1.5rem] sm:text-[2.5rem] text-center font-bold font-Orbitron">
               Robust & Convenient
             </h2>
-            <p className="text-[1.5rem] font-ubuntu text-center ">
+            <p className="sm:text-[1.5rem] text-[1rem] font-ubuntu text-center ">
               Flexbot is your Ultimate Companion for Robust and Convenient
               Crypto Trading! Flexbot enables you to trade anywhere at any time,
               at the best price leveraging its optimized trading features.

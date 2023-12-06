@@ -61,17 +61,17 @@ pocket while making sure your success is rewarded.
 
 const Features = () => {
   return (
-    <div className=" relative z-50 mt-24">
+    <div className=" relative sm:text-center z-50 mt-24">
       <div className="heading">
-        <h1 className="text-[42px] font-bold font-Orbitron">
+        <h1 className="sm:text-[42px] text-[2rem] text-center font-bold font-Orbitron">
           Flexbot Features
         </h1>
-        <p className=" text-[1.2rem] w-6/12 text-[#c9c9c9]">
+        <p className="text-[1rem] sm:text-[1.2rem] w-[100%] mx-auto sm:w-[50%] text-center text-[#c9c9c9]">
           Elevate your crypto trading experience with Flexbot, the intelligent
           and comprehensive solution designed for the modern crypto trader
         </p>
       </div>
-      <div className="mt-12 grid grid-cols-3 gap-[6rem]">
+      <div className="mt-12 grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 sm:gap-[6rem] gap-[3rem]">
         {featuresArr.map((item) => (
           <SingleFeature {...item} />
         ))}

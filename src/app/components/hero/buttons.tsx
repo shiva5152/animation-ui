@@ -24,10 +24,10 @@ const Buttons = () => {
                     />
                   </svg>
                 </span>{" "}
-                <span className="px-4">White paper</span>
+                <span className="sm:px-4 px-2">White paper</span>
               </button>
               <button className="button-glow bg-[#8d2fe6] font-medium rounded-[50px] items-center  flex p-2">
-                <span className="hover:-rotate-45 transform transition-transform duration-300 bg-white rounded-full p-2">
+                <span className="hover:-rotate-45 transform transition-transform duration-300 bg-white rounded-full p-1 sm:p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -43,10 +43,10 @@ const Buttons = () => {
                     />
                   </svg>
                 </span>{" "}
-                <span className="px-4">White list</span>
+                <span className="sm:px-4 px-2">White list</span>
               </button>
             </div>
-            <button className="bg-white hidden md:block w-fit rounded-full p-2">
+            <button className="bg-white hidden md:block w-fit rounded-full p-1 sm:p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

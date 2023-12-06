@@ -23,7 +23,7 @@ const faqText = [
 const Faq = () => {
   return (
     <div className="relative">
-      <div className="mt-24 relative z-10 ">
+      <div className="sm:mt-24 mt-12 relative z-10 ">
         <h1 className="text-[40px] text-center font-semibold">FAQ</h1>
         <div className="flex flex-col mt-5 gap-5">
           {faqText.map((obj) => (

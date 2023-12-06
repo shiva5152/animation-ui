@@ -90,9 +90,9 @@ const social = [
 
 const Footer = () => {
   return (
-    <footer className="mt-24 flex footer  p-12 justify-between">
+    <footer className="sm:mt-24 mt-12 flex flex-col sm:flex-row footer gap-4  sm:p-12 p-4 justify-between overflow-x-hidden">
       <div>
-        <h1 className=" text-[2.5rem] font-semibold">Flexbot</h1>
+        <h1 className=" text-[2.5rem] font-semibold font-Orbitron">Flexbot</h1>
         <p className="text-[0.8rem] text-[#c9c9c9] ">
           © 2024 All right are reserved
         </p>
@@ -113,7 +113,7 @@ const Footer = () => {
           <li>Buy $FLEXBOT</li>
         </ul>
       </div>
-      <div className=" grid grid-cols-2 gap-2">
+      <div className=" grid sm:grid-cols-2 grid-cols-3  gap-2">
         {social.map((item) => (
           <SingleSocialMedia key={item.id} id={item.id} logo={item.logo} />
         ))}

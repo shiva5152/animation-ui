@@ -32,11 +32,11 @@ const Text = () => {
 
   return (
     <div
-      className="flex relative z-40 flex-col justify-between gap-[5rem] "
+      className="flex relative z-40 flex-col justify-between sm:gap-[5rem] gap-[2.5rem] "
       ref={textRef}
     >
       <div className=" relative z-10 flex flex-col justify-center">
-        <div className="text-[28px] max-w-[60%]  leading-snug font-bold font-Orbitron">
+        <div className="text-[28px] sm:max-w-[60%] w-full  leading-snug font-bold font-Orbitron">
           {/* <h1 id="title-1">
             Innovate<span className="text-[#8d2fe6]">.</span>
           </h1>
@@ -46,7 +46,7 @@ const Text = () => {
           <h1 id="title-3">
             Innovate some more<span className="text-[#8d2fe6]">.</span>
           </h1> */}
-          <h1 className="text-[3rem]">
+          <h1 className="sm:text-[3rem] text-[2rem]">
             Paving The Way To Intelligent Crypto Trading!
           </h1>
           <h2 className="text-[1.5rem] font-ubuntu font-normal mt-7">

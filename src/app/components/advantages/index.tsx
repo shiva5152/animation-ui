@@ -5,7 +5,7 @@ const Advantages = () => {
   return (
     <div className="mt-24 relative z-10">
       <Heading />
-      <div className="grid grid-cols-3 gap-10 mt-12">
+      <div className="grid sm:mt-12  mt-6 sm:grid-cols-2 md:grid-cols-3 grid-cols-1 sm:gap-[6rem] gap-[4rem]">
         <div>
           <h1 className=" text-[1.2rem] font-semibold">User Centric Design</h1>
           <div className="light-border my-5 rounded"></div>

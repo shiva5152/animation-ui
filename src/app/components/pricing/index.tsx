@@ -31,28 +31,34 @@ const Pricing = () => {
 
   return (
     <div className="relative">
-      <div className="relative z-10 mt-24" ref={textRef}>
-        <p id="title-1" className="text-[#c9c9c9] text-center mb-[1.5rem]">
+      <div className="relative z-10 sm:mt-24 mt-12" ref={textRef}>
+        <p
+          id="title-1"
+          className="text-[#c9c9c9] hidden sm:block text-center mb-[1.5rem]"
+        >
           Pricing?
         </p>
         <div>
           <h1
             id="title-2"
-            className="text-[42px] text-center font-bold font-Orbitron mb-[1.3rem]"
+            className="sm:text-[42px] text-[2rem] text-center font-bold font-Orbitron mb-[1.3rem]"
           >
             Choose Your own price
           </h1>
-          <div className="flex justify-center mb-16">
+          <div className="flex justify-center mb-8 sm:mb-16">
             <p
               id="title-3"
-              className=" text-[1.2rem] text-center w-6/12 text-[#c9c9c9]"
+              className=" text-[1rem] sm:text-[1.2rem] text-center sm:w-6/12 w-full font-ubuntu"
             >
               Discover flexible pricing options tailored to accommodate the
               diverse needs of your AI venture, ensuring value at every tier.
             </p>
           </div>
         </div>
-        <div id="price" className="flex w-[100%]  justify-evenly gap-4">
+        <div
+          id="price"
+          className="flex w-[100%] flex-col sm:flex-row  justify-evenly gap-8 sm:gap-4 "
+        >
           <SinglePrice />
           <SinglePrice />
           <SinglePrice />
