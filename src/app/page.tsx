@@ -22,8 +22,8 @@ export default function Home() {
         {/* <Intro /> */}
         <Features />
         <Advantages />
-        <Testimonial />
-        <Pricing />
+        {/* <Testimonial /> */}
+        {/* <Pricing /> */}
         <Faq />
         <Footer />
       </main>

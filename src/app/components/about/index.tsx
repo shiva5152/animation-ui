@@ -24,9 +24,10 @@ const About = () => {
           <div className="flex justify-center">
             <Image
               id="box"
-              src={"/image/about-2.png"}
-              height={400}
-              width={400}
+              src={"/image/aave.png"}
+              className=" w-[250px] sm:w-[350px]"
+              height={350}
+              width={350}
               alt="robo"
             />
           </div>
@@ -35,9 +36,10 @@ const About = () => {
           <div className="flex justify-center">
             <Image
               id="box"
-              src={"/image/about-1.png"}
-              height={400}
-              width={400}
+              src={"/image/polygon.png"}
+              height={350}
+              className=" w-[250px] sm:w-[350px]"
+              width={350}
               alt="robo"
             />
           </div>

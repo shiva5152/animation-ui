@@ -90,7 +90,7 @@ const social = [
 
 const Footer = () => {
   return (
-    <footer className="sm:mt-24 mt-12 flex flex-col sm:flex-row footer gap-4  sm:p-12 p-4 justify-between overflow-x-hidden">
+    <footer className=" bg-wave  sm:mt-24 mt-12 flex flex-col sm:flex-row footer gap-4  sm:p-12 p-4 justify-between overflow-x-hidden">
       <div>
         <h1 className=" text-[2.5rem] font-semibold font-Orbitron">Flexbot</h1>
         <p className="text-[0.8rem] text-[#c9c9c9] ">

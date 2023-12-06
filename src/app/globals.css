@@ -185,3 +185,11 @@
     ); /* Adjust the value to control the floating height */
   }
 }
+
+.bg-wave {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url("/wave.svg");
+}
