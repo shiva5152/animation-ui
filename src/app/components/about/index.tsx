@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="relative mt-24">
+    <section className="relative mt-12 sm:mt-24">
       <div className=" relative z-50">
         <h1 className="sm:text-[42px] text-[2rem] sm:mb-16 mb-8 text-center font-bold font-Orbitron">
           About Us

@@ -13,7 +13,7 @@ import About from "./components/about";
 
 export default function Home() {
   return (
-    <div className="container _hero relative min-h-screen p-[20px] md:py-12  md:px-24">
+    <div className="container _hero relative min-h-screen p-[20px] md:py-12  md:px-24 overflow-x-hidden">
       <Navbar />
       <main className="">
         <Hero />

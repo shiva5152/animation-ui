@@ -6,7 +6,7 @@ import Image from "./img";
 
 const Hero = () => {
   return (
-    <section className="hero flex">
+    <section className="hero flex flex-col sm:flex-row gap-6">
       <Text />
       <Image />
     </section>
